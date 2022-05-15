@@ -1,0 +1,66 @@
+:root {
+    --background: #d79f8540;
+}
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    text-transform: uppercase;
+}
+/* Header Start */
+header {
+    width: 1200px;
+}
+.proffesion {
+    background-color: var(--background);
+    padding: 20px 40px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #6e686a;
+}
+.name-avatar-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    margin-bottom: 5px;
+}
+.name {
+    width: 70%;
+}
+h2 {
+    font-size: 4em;
+}
+h1 {
+    font-size: 7em;
+}
+.avatar {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+img {
+    width: auto;
+    height: 200px;
+}
+.line {
+    width: 70%;
+    height: 5px;
+    background-color: var(--background);
+}
+/* Header End */
+/* MainContent Start */
+.main-content-wrapper {
+    width: 1200px;
+    display: flex;
+}
+.leftside {
+    width: 40%;
+}
+.rightside {
+    width: 60%;
+}
+/* MainContent End */
